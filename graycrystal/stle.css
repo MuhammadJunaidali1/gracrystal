@@ -1,0 +1,211 @@
+
+
+.navbar {
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+}
+.navbar-brand{
+  font-size: 20px;
+ padding-left: 5px;
+margin-top: 5px;
+font-weight: 400;
+letter-spacing: 0.8px;
+
+}
+
+
+.navbar-scrolled {
+  background-color: white !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Home Container with Background Image --- */
+.home-section {
+  height: 100vh;
+  background-image: 
+  linear-gradient(to top , rgb(6, 6, 6) 0%, rgba(13, 12, 14, 0.5) 40%, rgba(11, 233, 159, 0) 100%),
+  url(bg-masthead.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+}
+
+/* Optional: spacing for demo */
+.content {
+  height: 1500px;
+  background-color: #f8f9fa;
+}
+  .nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    color: #6c757d;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .nav-link:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background-color:rgb(100,161,157);
+    transition: 0.3s ease-in-out;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .homeh11{
+    font-size: 6.0rem;
+    line-height: 6.5rem;
+    letter-spacing: 1.2rem;
+  
+    font-weight: 400;
+   
+    
+  }
+  .homeh2{
+    max-width: 30rem;
+    font-size: 1.25rem;
+    color: rgb(181,181,181);
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+  .homebtn{
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.1875rem 0.1875rem 0px !important;
+    padding: 1.25rem 2rem;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    background-color: rgb(100,161,157);
+  }
+  .homebtn:hover{
+    background-color:rgb(96, 139, 137);
+  }
+  .ipadbg {
+    
+    background-image: url("ipad.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-color:rgb(0,0,0);
+    height: 400px;
+   width: 100%;
+   padding-left: 100px;
+
+  }
+
+
+
+
+
+.vertical-line{
+  width: 8px;
+  background-color:rgb(100,161,157); 
+  height: 50%;
+  
+}
+
+.project-body{
+padding-top: 130px;
+letter-spacing: 1.5px;
+padding-right: 80px;
+}
+
+.projecth4{
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 1.5;
+ 
+}
+.text-black-50{
+  color: rgb(102 102 102);
+}
+.imggg{
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+.bgimage{
+  background-image: 
+        linear-gradient(to top , rgb(6, 6, 6) 15%, rgba(13, 12, 14, 0.5) 40%, rgba(11, 233, 159, 0) 100%),
+        url(bg-signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:90vh;
+  width: 100%;
+  padding: 100px;
+}
+.iconpro{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.icon-card{
+  font-size: 20px;
+  color: rgb(100,161,157);
+}
+.icon-h4{
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  opacity: 1;
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.my-44{
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+hr{
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 3px solid;
+  opacity: 0.50;
+  color: rgb(100,161,157);
+}
+.icon-footer{
+  font-size: 15px;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(95,95,95);
+  background-color: rgb(26,26,26);
+}
+.icon-footer:hover{
+  color: rgb(122, 102, 102);
+  transition: 0.3s ease-in-out;
+}
+
+
+

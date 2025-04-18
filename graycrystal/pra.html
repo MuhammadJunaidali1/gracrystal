@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vertical Line Attached to Image</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .image-section {
+      height: 100vh;
+    }
+
+    .image-fit {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .vertical-line {
+      width: 10px;
+      background-color: #000; /* You can change the color */
+      height: 100%;
+    }
+
+    .content-box {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row image-section">
+    <!-- Image Column -->
+    <div class="col-md-5 p-0">
+      <img src="https://source.unsplash.com/600x900/?nature" class="img-fluid image-fit" alt="Image">
+    </div>
+
+    <!-- Vertical Line -->
+    
+
+    <!-- Content Column -->
+    <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <div class="content-box">
+        <h2 class="fw-bold">Right Side Content</h2>
+        <p>This section is aligned next to the image with a 10px vertical line separator.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
